@@ -16,21 +16,6 @@ div, p {
   	border: 0;
 }
 
-@media only screen and (max-width: 500px) {
-	#top-backdrop {
-		height: 600px;
-		background-attachment: scroll;
-		width: 500px;
-	}
-
-	#firstprojectwrapper {
-		display: block;
-		width: 100%;
-	}
-
-
-}
-
 #top-backdrop {
 	background-image: url('../images/fjord.jpg');
 	width: 100%;
