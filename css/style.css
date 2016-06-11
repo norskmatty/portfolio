@@ -96,6 +96,15 @@ div, p {
 	color: white;
 }
 
+#thirdprojectwrapper {
+	height: 400px;
+	width: 100%;
+	display: flex;
+	position: absolute;
+	top: 1470px;
+	color: white;
+}
+
 #tictactoe {
 	order: 1;
 	width: 50%;
@@ -105,27 +114,27 @@ div, p {
 .imageposition {
 	margin-left: auto;
 	margin-right: auto;
-	width: 200px;
-	border: solid 2px black;
+	width: 260px;
+	height: 260px;
 }
 
-#firstprojectwrapper a, #secondprojectwrapper a {
-	height: 200px;
-	width: 200px;
+#firstprojectwrapper a, #secondprojectwrapper a, #thirdprojectwrapper a {
+	height: 260px;
+	width: 260px;
 
 }
 
-#firstprojectwrapper p, #secondprojectwrapper p {
+#firstprojectwrapper p, #secondprojectwrapper p, #thirdprojectwrapper p {
 	font-family: 'Montserrat', serif;
 	font-size: 25px;
 	padding: 10px;
 	text-align: center;
-	margin-bottom: 65px;
+	margin-bottom: 30px;
 }
 
-#tictacimage, #topsifyimage, #shoppingimage, #hotorcoldimage {
+#tictacimage, #topsifyimage, #shoppingimage, #hotorcoldimage, #quizimage, #streetfighterimage {
 	border: solid 1px black;
-	border-radius: 100px;
+	border-radius: 130px;
 }
 
 #topsify {
@@ -144,6 +153,18 @@ div, p {
 	order: 2;
 	width: 50%;
 	background-color: rebeccapurple;
+}
+
+#quiz {
+	order: 1;
+	width: 50%;
+	background-color: maroon;
+}
+
+#streetfighter {
+	order: 2;
+	width: 50%;
+	background-color: peru;
 }
 
 
