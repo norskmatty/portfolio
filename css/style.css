@@ -6,8 +6,27 @@ html {
   
 }
 
+@media screen and (max-width: 500px) {
+	#top-backdrop {
+		background-image: url('../images/fjord.jpg');
+		width: 500px;
+		height: 500px;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		top: 0;
+		left: 0;
+		position: absolute;
+	}
+
+	#firstprojectwrapper {
+		display: block;
+	}
+
+}
+
 body {
 	overflow: auto;
+	min-width: 600px;
 }
 
 div, p {
@@ -85,6 +104,8 @@ div, p {
 	position: absolute;
 	top: 670px;
 	color: white;
+	min-width: 600px;
+
 }
 
 #secondprojectwrapper {
@@ -94,6 +115,7 @@ div, p {
 	position: absolute;
 	top: 1070px;
 	color: white;
+	min-width: 600px;
 }
 
 #thirdprojectwrapper {
@@ -103,6 +125,7 @@ div, p {
 	position: absolute;
 	top: 1470px;
 	color: white;
+	min-width: 600px;
 }
 
 #tictactoe {
@@ -167,5 +190,50 @@ div, p {
 	background-color: peru;
 }
 
+.end {
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	top: 1870px;
+}
 
+.end .flexwrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -30px;
+}
+
+.end #twitter {
+	height: 50px;
+	width: 50px;
+	display: 2;
+}
+
+.end #email {
+	height: 60px;
+	width: 60px;
+	display: 3;
+}
+
+.end #hrleft {
+	display: 1;
+	width: 30%;
+	height: 2px;
+	margin-right: 3%;
+}
+
+.end #hrright {
+	display: 4;
+	width: 30%;
+	height: 2px;
+	margin-left: 3%;
+}
+
+.end h4 {
+	margin-top: 10px;
+	font-family: "Raleway", sans-serif;
+	font-size: 3em;
+	text-align: center;
+}
 
