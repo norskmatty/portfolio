@@ -24,7 +24,7 @@ div, p {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	top: 0;
+	top: -100px;
 	left: 0;
 	position: absolute;
 }
@@ -67,7 +67,7 @@ div, p {
 	font-family: 'Raleway', serif;
 	font-size: 30px;
 	position: absolute;
-	top: 600px;
+	top: 500px;
 	text-align: center;
 	padding: 20px;
 	color: white;
@@ -77,26 +77,24 @@ div, p {
 
 #projectwrapper {
 	display: block;
-	position: absolute;
-	top: 670px;
-	width: 100%;
+	margin-top: 570px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
 	color: white;
 }
 
 #projectwrapper > div {
 	width: 100%;
-	height: 600px;
+	height: 500px;
 	min-width: 600px;
-}
-
-#tictactoe {
-	background-color: peru;
+	border: solid black 2px;
 }
 
 .imageleftposition, .imagerightposition {
 	width: 400px;
 	height: 400px;
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 .imageleftposition {
@@ -109,26 +107,26 @@ div, p {
 	margin-right: 40px;
 }
 
-#tictactoehover, #topsifyhover, #shoppinghover, #hotorcoldhover, #quizhover, #sfhover {
+#stockshover, #topsifyhover, #shoppinghover, #hotorcoldhover, #quizhover, #dfmhover {
 	display: none;
 	margin: 0;
-	height: 600px;
-	min-width: 800px;
-	background-color: lightgrey;
+	height: 500px;
+	min-width: 600px;
+	background-color: lightblue;
 	color: black;
 }
 
 .textright {
-	width: 600px;
-	margin-right: 10%;
-	margin-top: 15px;
+	width: 700px;
+	margin-right: 30px;
+	margin-top: 0px;
 	float: right;
 }
 
 .textleft {
-	width: 600px;
-	margin-left: 10%;
-	margin-top: 15px;
+	width: 700px;
+	margin-left: 30px;
+	margin-top: 0px;
 	float: left;
 }
 
@@ -159,29 +157,24 @@ div, p {
 	text-align: center;
 }
 
-#tictacimage, #topsifyimage, #shoppingimage, #hotorcoldimage, #quizimage, #streetfighterimage {
+#stocksimage, #topsifyimage, #shoppingimage, #hotorcoldimage, #quizimage, #drawformeimage {
 	border: solid 1px black;
 	border-radius: 200px;
+	height: 350px;
+	width: 350px;
 }
 
-#topsify {
-	background-color: teal;
+#dfmnormal .imagerightposition, #stocksnormal .imageleftposition, #shoppingnormal .imagerightposition, #topsifynormal .imageleftposition, #hotorcoldnormal .imagerightposition, #quiznormal .imageleftposition {
+	margin-top: 0px;
 }
 
-#shopping {
-	background-color: forestgreen;
+#dfmhover .imagerightposition, #stockshover .imageleftposition, #shoppinghover .imagerightposition, #topsifyhover .imageleftposition, #hotorcoldhover .imagerightposition, #quizhover .imageleftposition {
+	margin-top: 60px;
 }
 
-#hotorcold {
-	background-color: rebeccapurple;
-}
 
-#quiz {
-	background-color: maroon;
-}
-
-#streetfighter {
-	background-color: peru;
+#stocksgame, #drawforme, #topsify, #shopping, #hotorcold, #quiz {
+	background-color: grey;
 }
 
 .end {
@@ -189,7 +182,7 @@ div, p {
 	height: 180px;
 	display: block;
 	position: absolute;
-	top: 4270px;
+	top: 3570px;
 }
 
 .end .flexwrapper {

@@ -1,10 +1,10 @@
 $(document).ready(function() {
-	$('#tictactoe').mouseenter(function() {
-		tictacmouseover();
+	$('#stocksgame').mouseenter(function() {
+		stocksgamemouseover();
 	})
 
-	$('#tictactoe').mouseleave(function() {
-		tictacmouseout();
+	$('#stocksgame').mouseleave(function() {
+		stocksgamemouseout();
 	})
 
 	$('#topsify').mouseenter(function() {
@@ -39,73 +39,73 @@ $(document).ready(function() {
 		quizmouseout();
 	})
 
-	$('#streetfighter').mouseenter(function() {
-		sfmouseover();
+	$('#drawforme').mouseenter(function() {
+		dfmmouseover();
 	})
 
-	$('#streetfighter').mouseleave(function() {
-		sfmouseout();
+	$('#drawforme').mouseleave(function() {
+		dfmmouseout();
 	})
 	
 })
 
 
-function tictacmouseover() {
-	$('#tictactoenormal').hide(400);
-	$('#tictactoehover').show(400);
+function stocksgamemouseover() {
+	$('#stocksnormal').hide();
+	$('#stockshover').show();
 }
 
-function tictacmouseout() {
-	$('#tictactoehover').hide(400);
-	$('#tictactoenormal').show(400);
+function stocksgamemouseout() {
+	$('#stockshover').hide();
+	$('#stocksnormal').show();
 }
 
 function topsifymouseover() {
-	$('#topsifynormal').hide(400);
-	$('#topsifyhover').show(400);
+	$('#topsifynormal').hide();
+	$('#topsifyhover').show();
 }
 
 function topsifymouseout() {
-	$('#topsifyhover').hide(400);
-	$('#topsifynormal').show(400);
+	$('#topsifyhover').hide();
+	$('#topsifynormal').show();
 }
 
 function shoppingmouseover() {
-	$('#shoppingnormal').hide(400);
-	$('#shoppinghover').show(400);
+	$('#shoppingnormal').hide();
+	$('#shoppinghover').show();
 }
 
 function shoppingmouseout() {
-	$('#shoppinghover').hide(400);
-	$('#shoppingnormal').show(400);
+	$('#shoppinghover').hide();
+	$('#shoppingnormal').show();
 }
 
 function hotorcoldmouseover() {
-	$('#hotorcoldnormal').hide(400);
-	$('#hotorcoldhover').show(400);
+	$('#hotorcoldnormal').hide();
+	$('#hotorcoldhover').show();
 }
 
 function hotorcoldmouseout() {
-	$('#hotorcoldhover').hide(400);
-	$('#hotorcoldnormal').show(400);
+	$('#hotorcoldhover').hide();
+	$('#hotorcoldnormal').show();
 }
 
 function quizmouseover() {
-	$('#quiznormal').hide(400);
-	$('#quizhover').show(400);
+	$('#quiznormal').hide();
+	$('#quizhover').show();
 }
 
 function quizmouseout() {
-	$('#quizhover').hide(400);
-	$('#quiznormal').show(400);
+	$('#quizhover').hide();
+	$('#quiznormal').show();
 }
 
-function sfmouseover() {
-	$('#sfnormal').hide(400);
-	$('#sfhover').show(400);
+function dfmmouseover() {
+	$('#dfmnormal').hide();
+	$('#dfmhover').show();
 }
 
-function sfmouseout() {
-	$('#sfhover').hide(400);
-	$('#sfnormal').show(400);
+function dfmmouseout() {
+	$('#dfmhover').hide();
+	$('#dfmnormal').show();
 }
